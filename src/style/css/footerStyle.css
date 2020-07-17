@@ -1,0 +1,146 @@
+body {
+    background-color: #f8fbff;
+}
+
+
+#navPrincipal {
+    padding: 3px;
+    margin: 0px;
+    width: 100%; 
+    height: 100px;
+    z-index: 10;
+}
+  
+#primerTexto {
+    color: #2a3d8a;
+    font-size: 1rem;
+}
+
+#firstComponent {
+    background-color:#f0f8ff;
+    
+}
+
+@media only screen and (max-width: 665px) {
+  #firstComponent {
+        display: none;
+  }
+}
+
+#primerIcon {
+    color:#2a3d8a;
+    height: 35px;
+    width: 35px;
+    padding:6px;
+    border-radius:50%;
+    font-size: 1.5rem;
+}
+
+#primerIcon:hover {
+    color:white;
+    height: 35px;
+    width: 35px;
+    background-color:rgb(36,127,251);
+    border-radius:50%;
+    font-size: 1.5rem;
+}
+
+
+#icon {
+    color:rgb(36,127,251);
+    font-size: 1.3rem;
+    transition: all 2.s ease-in-out;
+}
+
+#icon:hover {
+    color:rgb(36,127,251);
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+    #icon {
+        color:rgb(36,127,251);
+        font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #icon {
+        color:rgb(36,127,251);
+        font-size: 2rem;
+    }
+  }
+
+
+
+.seoFooter {
+    padding-top: 20px;
+    color:white; 
+    text-align: center; 
+    font-size: 12px; 
+    line-height: 18px;
+}
+
+
+#telefonoFooter {
+    color:primary;
+    font-weight:400; 
+    font-size:2rem;
+}
+
+#iconScrollUp {
+      
+      /*display: none;*/
+      position: fixed;
+      bottom: 0px;
+      right: 10px;
+      z-index: 10;
+      font-size: 3rem;
+      color: rgba(101,165,252, .7);
+      cursor: pointer;
+      padding: 5px;
+}
+
+#iconScrollUp:hover {
+    color: rgba(36,127,251, 1);
+}
+
+
+#terminos, #privacidad {
+    color:white; 
+    font-size: 11px;
+}
+
+
+#footerCopyright {
+    color:white;
+}
+
+#whatsAppIconForm {
+    color:#075e54;
+    position: fixed;
+    bottom:6px;
+    left:10px;
+    z-index: 20;
+    font-size: 3.5rem;
+}
+
+#footerIntermedio {
+    background-color: white;
+}
+
+#imgFooter {
+    padding: 0px;
+    width: 132px;
+    height: 366px;
+    margin-right:300px;
+}
+
+  @media only screen and (max-width: 768px) {
+    #imgFooter {
+        padding:0px;
+        margin-right: 100px;
+        width: 162px;
+        height: 450px;
+    }
+  }
